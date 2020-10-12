@@ -1,0 +1,16 @@
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.deps.json
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.json
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.runtimeconfig.dev.json
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Training\Pluralsight\CityInfo\CityInfo.API\bin\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csprojAssemblyReference.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfoInputs.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.AssemblyInfo.cs
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.csproj.CoreCompileInputs.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.RazorTargetAssemblyInfo.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.dll
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.pdb
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Debug\netcoreapp2.1\CityInfo.API.genruntimeconfig.cache
