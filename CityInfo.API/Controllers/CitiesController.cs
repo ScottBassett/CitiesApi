@@ -22,11 +22,7 @@ namespace CityInfo.API.Controllers
         {
             // find city
             var cityToReturn = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
-
-            if (cityToReturn == null)
-            {
-                return NotFound();
-            }
+            if (cityToReturn == null) return NotFound();
 
             return Ok(cityToReturn);
         }
