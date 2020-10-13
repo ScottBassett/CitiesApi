@@ -58,3 +58,60 @@
 2020-10-13 15:41:27.7905|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
 2020-10-13 15:41:27.8044|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 128.264ms
 2020-10-13 15:41:27.8169|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 325.7962ms 204 
+2020-10-13 15:51:34.0427|INFO|CityInfo.API.Program|INITIALISING APPLICATION...
+2020-10-13 15:51:36.3295|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ScottB\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-10-13 15:51:37.3500|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-10-13 15:51:37.3500|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-10-13 15:51:37.4637|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 96.3146ms 200 
+2020-10-13 15:51:37.8763|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 530.5675ms 404 text/plain
+2020-10-13 15:51:38.1622|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2020-10-13 15:51:38.1824|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 68.7412ms 404 text/plain
+2020-10-13 15:51:53.0244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2020-10-13 15:51:53.1180|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2020-10-13 15:51:53.1843|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2020-10-13 15:51:53.2155|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 19.0906ms.
+2020-10-13 15:51:53.2331|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2020-10-13 15:51:53.2459|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 116.0246ms
+2020-10-13 15:51:53.2565|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 239.1668ms 204 
+2020-10-13 16:00:15.6376|INFO|CityInfo.API.Program|INITIALISING APPLICATION...
+2020-10-13 16:00:17.4210|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ScottB\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-10-13 16:00:18.7381|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-10-13 16:00:18.7381|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-10-13 16:00:18.8653|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 132.412ms 200 
+2020-10-13 16:00:19.2181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 485.9001ms 404 text/plain
+2020-10-13 16:00:19.3161|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2020-10-13 16:00:19.3161|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6389ms 404 text/plain
+2020-10-13 16:00:26.8409|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2020-10-13 16:00:26.9343|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2020-10-13 16:00:26.9986|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2020-10-13 16:00:27.0321|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 22.5178ms.
+2020-10-13 16:00:27.0508|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2020-10-13 16:00:27.0508|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 117.2998ms
+2020-10-13 16:00:27.0747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 233.9877ms 204 
+2020-10-13 16:01:12.0071|INFO|CityInfo.API.Program|INITIALISING APPLICATION...
+2020-10-13 16:01:14.2984|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ScottB\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-10-13 16:01:15.0041|FATAL|Microsoft.AspNetCore.Hosting.Internal.WebHost|Application startup exception
+2020-10-13 16:01:15.3439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-10-13 16:01:15.3439|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-10-13 16:01:15.4396|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.1979ms 500 text/html; charset=utf-8
+2020-10-13 16:01:15.4537|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM3FH3AEPSID", Request id "0HM3FH3AEPSID:00000001": An unhandled exception was thrown by the application.
+2020-10-13 16:01:15.4684|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 123.4659ms 500 
+2020-10-13 16:01:18.4589|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2020-10-13 16:01:18.4807|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.3078ms 500 text/html; charset=utf-8
+2020-10-13 16:01:26.8615|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2020-10-13 16:01:26.8765|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.8383ms 500 text/html; charset=utf-8
+2020-10-13 16:02:31.7325|INFO|CityInfo.API.Program|INITIALISING APPLICATION...
+2020-10-13 16:02:34.4464|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\ScottB\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-10-13 16:02:35.9562|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DEBUG http://localhost:1028/  0
+2020-10-13 16:02:35.9562|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/  
+2020-10-13 16:02:36.1486|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 171.813ms 200 
+2020-10-13 16:02:36.6689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 727.5682ms 404 text/plain
+2020-10-13 16:02:36.8256|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:1028/favicon.ico  
+2020-10-13 16:02:36.8371|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.7689ms 404 text/plain
+2020-10-13 16:02:47.8795|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE http://localhost:1028/api/cities/1/pointsofinterest/1  
+2020-10-13 16:02:47.9878|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.API.Controllers.PointsOfInterestController (CityInfo.API).
+2020-10-13 16:02:48.0608|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) - Validation state: Valid
+2020-10-13 16:02:48.1006|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 26.3279ms.
+2020-10-13 16:02:48.1216|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2020-10-13 16:02:48.1494|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.API.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo.API) in 140.0597ms
+2020-10-13 16:02:48.1695|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 293.4017ms 204 
