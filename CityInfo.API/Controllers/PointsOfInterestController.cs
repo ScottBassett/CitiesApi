@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CityInfo.API.Models;
+using CityInfo.API.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace CityInfo.API.Controllers
 {
@@ -13,11 +15,24 @@ namespace CityInfo.API.Controllers
     [Route("api/cities/{cityId}/pointsofinterest")]
     public class PointsOfInterestController : ControllerBase
     {
+        private readonly ILogger<PointsOfInterestController> _logger;
+        private readonly IMailService _mailService;
+
+        public PointsOfInterestController(ILogger<PointsOfInterestController> logger, IMailService mailService)
+        {
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _mailService = mailService ?? throw new ArgumentNullException(nameof(mailService));
+        }
+
         [HttpGet]
         public IActionResult GetPointsOfInterest(int cityId)
         {
             var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == cityId);
-            if (city == null) return NotFound();
+            if (city == null)
+            {
+                _logger.LogInformation($"City with id {cityId} wasn't found when accessing the bloomin points of interest");
+                return NotFound();
+            }
 
             return Ok(city?.PointsOfInterest);
         }
@@ -154,6 +169,10 @@ namespace CityInfo.API.Controllers
             if (pointOfInterestFromStore == null) return NotFound();
 
             city.PointsOfInterest.Remove(pointOfInterestFromStore);
+
+            _mailService.Send(
+                "Point of interest deleted.",
+                $"Point of interest {pointOfInterestFromStore.Name} with id {pointOfInterestFromStore.Id} was deleted.");
 
             return NoContent();
         }

@@ -1,0 +1,5 @@
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Release\netcoreapp2.1\CityInfo.API.AssemblyInfoInputs.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Release\netcoreapp2.1\CityInfo.API.AssemblyInfo.cs
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Release\netcoreapp2.1\CityInfo.API.csproj.CoreCompileInputs.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Release\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cache
+C:\Training\Pluralsight\CityInfo\CityInfo.API\obj\Release\netcoreapp2.1\CityInfo.API.RazorAssemblyInfo.cs
