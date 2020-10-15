@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Qa/uh9fGnqtfj92OE7FsIjze+0RDeV3TSjuzWUU9MEXTG+xYG+E2ubhYHo54obZc1Asi/MFHVz8MP1tVLeMIgw==",
+  "dgSpecHash": "ZBr236GiaqW1gooYZFxYK93ZR4kLv+8EItb5VA9UxWnHnxDig2Hat4WVU96pBgWC3BbCIyU+p+WrGSyw/D1TEg==",
   "success": true,
   "projectFilePath": "C:\\Training\\Pluralsight\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ScottB\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\ScottB\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\ScottB\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\ScottB\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\ScottB\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
